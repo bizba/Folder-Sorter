@@ -105,7 +105,6 @@ void fsize(char *name)
     //printf ("%8ld %s\n", stbuf.st_size, name);
 }
 
-#define MAX_PATH 1024
 
 void dirwalk(char *dir, void (*fcn) (char *))
 {
