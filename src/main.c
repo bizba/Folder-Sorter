@@ -27,7 +27,7 @@ int main (int argc, char **argv)
 	i = 0;
 
 	if (argc == 1)
-	    fsize("./");
+	    fsize(".");
 	else
 	    while (--argc > 0)
 	        fsize(*++argv);
